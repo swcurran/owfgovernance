@@ -24,6 +24,7 @@ teams:
       - ff137
       - thiagoromanos
       - PatStLouis
+      - loneil
   - name: acapy-contributors
     maintainers:
       - swcurran
@@ -36,6 +37,7 @@ teams:
       - ianco
       - jamshale
       - TheTechmage
+      - loneil
   - name: askar-admins
     maintainers:
       - andrewwhitehead
@@ -81,14 +83,6 @@ teams:
       - ryjones
     members:
       - owf-bot
-  - name: credential-comparison-format-sig-committers
-    maintainers:
-      - cre8
-      - tkuhrt
-      - tlodderstedt
-  - name: credential-comparison-format-sig-admins
-    maintainers:
-      - cre8
   - name: credo-admins
     maintainers:
       - TimoGlastra
@@ -278,11 +272,6 @@ repositories:
   - name: bifold-wallet
     teams:
       bifold-wallet-maintainers: maintain
-    visibility: public
-  - name: credential-format-comparison-sig
-    teams:
-      credential-comparison-format-sig-admins: admin
-      credential-comparison-format-sig-committers: maintain
     visibility: public
   - name: credo-ts
     teams:
